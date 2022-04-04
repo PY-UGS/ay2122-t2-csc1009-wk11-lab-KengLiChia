@@ -34,6 +34,7 @@ while choice !=0:
     print("3. Multiplication")
     print("4. Division")
     print("5. Clear")
+    print("0: Exit")
 
     choice = int(input("Enter choice: "))
     if choice == 1:
@@ -46,9 +47,9 @@ while choice !=0:
         print("Result: ", object.divider()) #calls divider method
     elif choice == 5:
         object.clear() #clear input values
-        print("Input1:%d Input2:%d" %(object.input1,object.input2)) #print the values of the 2 numbers
+        print("Input1:%d Input2:%d" %(object.input1,object.input2)) #print the values of the 2 numbers after clear
     elif choice ==0:
-        print("Bye Bye")
+        print("Bye")
     else:
         print("Invalid choice")
 
