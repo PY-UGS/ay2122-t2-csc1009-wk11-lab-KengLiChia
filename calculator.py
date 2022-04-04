@@ -38,13 +38,13 @@ while choice !=0:
 
     choice = int(input("Enter choice: "))
     if choice == 1:
-        print("Result: ", object.adder()) #calls adder method
+        print("Result: ", object.adder()) #prints addition result with adder method
     elif choice == 2:
-        print("Result: ", object.subtractor()) #calls subtractor method
+        print("Result: ", object.subtractor()) #print subtract result with subtractor method
     elif choice == 3:
-        print("Result: ", object.multiplier()) # calls multiplier method
+        print("Result: ", object.multiplier()) # print multiply result with multiplier method
     elif choice == 4:
-        print("Result: ", object.divider()) #calls divider method
+        print("Result: ", object.divider()) #print divide result with divider method
     elif choice == 5:
         object.clear() #clear input values
         print("Input1:%d Input2:%d" %(object.input1,object.input2)) #print the values of the 2 numbers after clear
@@ -52,10 +52,3 @@ while choice !=0:
         print("Bye")
     else:
         print("Invalid choice")
-
-
-
-
-    
-
-    
